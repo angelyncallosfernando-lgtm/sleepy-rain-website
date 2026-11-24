@@ -1,0 +1,296 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Sleepy Rain Sanctuary</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0b1726;
+            color: #e5edf5;
+            line-height: 1.8;
+        }
+        header, footer {
+            text-align: center;
+            padding: 25px;
+            background: #101f30;
+        }
+        main {
+            max-width: 850px;
+            margin: auto;
+            padding: 35px 24px;
+        }
+        h1 { color: #ffffff; }
+        h2 { color: #b8ddf4; }
+        a { color: #9ecce8; }
+        nav a { margin: 0 10px; }
+        section {
+            border-bottom: 1px solid #29465e;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <strong>Sleepy Rain Sanctuary</strong>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+    </nav>
+</header>
+
+<main>
+
+<h1>Privacy Policy</h1>
+<p>Effective date: November 24, 2026</p>
+
+<section>
+    <h2>1. Introduction</h2>
+    <p>
+        Sleepy Rain Sanctuary is an independent
+        digital content project that creates and
+        manages relaxing ambient videos.
+    </p>
+    <p>
+        This policy explains how our private
+        automation application accesses, uses,
+        stores and protects Google user data
+        and YouTube API data.
+    </p>
+</section>
+
+<section>
+    <h2>2. Google Account Authorization</h2>
+    <p>
+        Our application uses Google OAuth 2.0
+        to obtain authorized access to the
+        channel owner's YouTube account.
+    </p>
+    <p>
+        The application requests the following
+        OAuth permission:
+    </p>
+    <p style="overflow-wrap:anywhere;">
+        https://www.googleapis.com/auth/youtube.upload
+    </p>
+    <p>
+        This permission is used to upload videos
+        and associated content to the authorized
+        YouTube channel.
+    </p>
+</section>
+
+<section>
+    <h2>3. Information Accessed</h2>
+    <p>
+        Our automation may process the following:
+    </p>
+    <ul>
+        <li>Google OAuth access and refresh tokens.</li>
+        <li>YouTube video identifiers.</li>
+        <li>Video titles and descriptions.</li>
+        <li>Video tags and category information.</li>
+        <li>Video visibility settings.</li>
+        <li>Video files and thumbnail images.</li>
+        <li>Upload status and API responses.</li>
+    </ul>
+    <p>
+        Our application does not request access
+        to Gmail messages, Google Contacts,
+        Google Drive files or unrelated personal data.
+    </p>
+</section>
+
+<section>
+    <h2>4. How Information Is Used</h2>
+    <p>
+        Information is used solely to operate
+        and maintain the authorized YouTube
+        content production workflow, including:
+    </p>
+    <ul>
+        <li>Authenticating with the YouTube Data API.</li>
+        <li>Uploading generated videos.</li>
+        <li>Setting video metadata and thumbnails.</li>
+        <li>Maintaining private upload visibility.</li>
+        <li>Recording upload results.</li>
+        <li>Diagnosing technical errors.</li>
+    </ul>
+    <p>
+        Google user data is not used for advertising,
+        profiling, sale, unrelated analytics or
+        training generalized artificial intelligence models.
+    </p>
+</section>
+
+<section>
+    <h2>5. Data Storage and Security</h2>
+    <p>
+        OAuth client credentials and refresh tokens
+        are stored using GitHub Actions repository
+        secrets in a private repository.
+    </p>
+    <p>
+        Temporary access tokens are obtained
+        during authorized workflow execution.
+        Credentials are not intentionally published
+        in website files or workflow logs.
+    </p>
+    <p>
+        Reasonable security measures are used to
+        restrict access to the automation environment.
+        No electronic storage or transmission method
+        can be guaranteed to be completely secure.
+    </p>
+</section>
+
+<section>
+    <h2>6. Third-Party Services</h2>
+    <p>
+        The application uses Google and GitHub
+        services to perform authorized operations.
+    </p>
+    <ul>
+        <li>Google OAuth 2.0</li>
+        <li>YouTube Data API v3</li>
+        <li>GitHub Actions</li>
+        <li>GitHub Pages</li>
+    </ul>
+    <p>
+        Data is processed by these providers as
+        necessary to operate the application.
+        We do not sell Google user data or
+        disclose it for unrelated commercial purposes.
+    </p>
+    <p>
+        Please review the
+        <a href="https://policies.google.com/privacy">
+            Google Privacy Policy
+        </a>
+        and
+        <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">
+            GitHub Privacy Statement
+        </a>.
+    </p>
+</section>
+
+<section>
+    <h2>7. Data Retention and Deletion</h2>
+    <p>
+        OAuth credentials are retained only while
+        needed to maintain authorized access.
+    </p>
+    <p>
+        Workflow artifacts are retained according
+        to the configured GitHub Actions retention
+        settings. Review artifacts are currently
+        configured for one day and upload metadata
+        artifacts for seven days.
+    </p>
+    <p>
+        Workflow logs and other platform records
+        may be retained separately according to
+        applicable platform settings and policies.
+    </p>
+    <p>
+        The channel owner can request deletion
+        of stored application data and remove
+        OAuth credentials from the private repository.
+        Data will be deleted when no longer required,
+        subject to applicable legal and platform
+        retention requirements.
+    </p>
+</section>
+
+<section>
+    <h2>8. Revoking Google Access</h2>
+    <p>
+        Google account authorization may be
+        revoked at any time through:
+    </p>
+    <p>
+        <a href="https://myaccount.google.com/connections">
+            Google Account Third-Party Connections
+        </a>
+    </p>
+    <p>
+        Revoking authorization prevents the
+        application from continuing to use
+        the revoked Google access credentials.
+        Previously uploaded YouTube videos
+        are not automatically deleted.
+    </p>
+</section>
+
+<section>
+    <h2>9. Google API Compliance</h2>
+    <p>
+        Sleepy Rain Sanctuary's use and transfer
+        of information received from Google APIs
+        will adhere to the Google API Services
+        User Data Policy, including the Limited
+        Use requirements.
+    </p>
+    <p>
+        <a href="https://developers.google.com/terms/api-services-user-data-policy">
+            Google API Services User Data Policy
+        </a>
+    </p>
+    <p>
+        <a href="https://developers.google.com/youtube/terms/api-services-terms-of-service">
+            YouTube API Services Terms of Service
+        </a>
+    </p>
+</section>
+
+<section>
+    <h2>10. Website Visitors</h2>
+    <p>
+        This website does not contain account
+        registration forms, advertising trackers
+        or custom analytics scripts.
+    </p>
+    <p>
+        GitHub Pages may process technical
+        information necessary to deliver and
+        secure the website.
+    </p>
+</section>
+
+<section>
+    <h2>11. Changes to This Policy</h2>
+    <p>
+        This policy may be updated when our
+        application, data practices or applicable
+        requirements change.
+    </p>
+</section>
+
+<section>
+    <h2>12. Contact Information</h2>
+    <p>
+        For privacy questions, data deletion
+        requests or concerns, contact:
+    </p>
+    <p>
+        <a href="mailto:angelyn.callos.fernando@gmail.com">
+            angelyn.callos.fernando@gmail.com
+        </a>
+    </p>
+</section>
+
+</main>
+
+<footer>
+    &copy; 2026 Sleepy Rain Sanctuary.
+</footer>
+
+</body>
+</html>
